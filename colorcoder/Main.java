@@ -1,4 +1,4 @@
-package com.tcq.training.colorcoder.app;
+package colorcoder;
 import com.tcq.training.colourcode.colours.entity.Color.ColorPair;
 import com.tcq.training.colourcode.colours.entity.MajorColor;
 import com.tcq.training.colourcode.colours.entity.MinorColor;
