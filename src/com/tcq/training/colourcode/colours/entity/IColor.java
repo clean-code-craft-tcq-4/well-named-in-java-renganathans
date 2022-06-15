@@ -1,6 +1,6 @@
 package com.tcq.training.colourcode.colours.entity;
 
-public interface IColour {
+public interface IColor {
 
 	int getIndex();
 

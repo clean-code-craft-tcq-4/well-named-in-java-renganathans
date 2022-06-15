@@ -1,7 +1,7 @@
 package com.tcq.training.colorcoder.app;
-import com.tcq.training.colourcode.colours.entity.Colour.ColorPair;
-import com.tcq.training.colourcode.colours.entity.Colour.MajorColor;
-import com.tcq.training.colourcode.colours.entity.Colour.MinorColor;
+import com.tcq.training.colourcode.colours.entity.Color.ColorPair;
+import com.tcq.training.colourcode.colours.entity.MajorColor;
+import com.tcq.training.colourcode.colours.entity.MinorColor;
 import com.tcq.training.colourcode.service.ColourCodeManipulator;
 
 public class Main {

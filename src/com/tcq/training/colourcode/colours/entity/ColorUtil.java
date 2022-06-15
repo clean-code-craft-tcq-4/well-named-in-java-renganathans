@@ -1,6 +1,6 @@
 package com.tcq.training.colourcode.colours.entity;
 
-public class ColourUtil {
+public class ColorUtil {
 	public static final String MAJOR_COLOR_NAMES[] = { "White", "Red", "Black", "Yellow", "Violet" };
 
 	public static final String MINOR_COLOR_NAMES[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
@@ -11,12 +11,13 @@ public class ColourUtil {
 
 	/**
 	 * Return color for given index
+	 * 
 	 * @param index
 	 * @param values
 	 * @return Color
 	 */
-	public static IColour fromIndex(int index, IColour[] values) {
-		for (IColour color : values) {
+	public static IColor fromIndex(int index, IColor[] values) {
+		for (IColor color : values) {
 			if (color.getIndex() == index) {
 				return color;
 			}
